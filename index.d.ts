@@ -16,6 +16,11 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
+/**
+ * Containes metadata on how to name diffrent things about a archive type
+ * @author pdamianik
+ */
+
 export interface ArchiveTypeLocales{
     /**
      * The name of the Archive Type
@@ -34,12 +39,18 @@ export interface ArchiveTypeLocales{
     fileTypeTitle:string;
 }
 
+/**
+ * Defines a custom archive type for the vscode extension folder-archiver (https://github.com/pdamianik/folder-archiver.git)
+ * @author pdamianik
+ */
+
 export interface ArchiveType{
     /**
      * The possible file extensions for the archive file
      */
     archive_extension_types: string[];
     /**
+     * Containes metadata on how to name diffrent things about a archive type
      * @see ArchiveTypeLocales
      */
     archive_locales: ArchiveTypeLocales;
