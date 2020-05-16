@@ -1,6 +1,6 @@
 {
   "name": "folder-archiver-types",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "The types necassery to create a folder-archiver (https://github.com/pdamianik/folder-archiver.git) custom archive type",
   "main": "index.d.ts",
   "types": "index.d.ts",
