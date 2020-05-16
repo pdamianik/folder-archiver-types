@@ -1,0 +1,25 @@
+{
+  "name": "folder-archiver-types",
+  "version": "2.0.0",
+  "description": "The types necassery to create a folder-archiver (https://github.com/pdamianik/folder-archiver.git) custom archive type",
+  "main": "index.d.ts",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdamianik/folder-archiver-types.git"
+  },
+  "keywords": [
+    "folder-archiver",
+    "vscode-extension",
+    "custom-archive-types"
+  ],
+  "author": "pdamianik",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/pdamianik/folder-archiver-types/issues"
+  },
+  "homepage": "https://github.com/pdamianik/folder-archiver-types#readme"
+}
