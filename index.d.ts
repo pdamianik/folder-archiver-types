@@ -36,7 +36,7 @@ export interface ArchiveTypeLocales{
 
 export interface ArchiveType{
     /**
-     * The possible extensions for the archive file
+     * The possible file extensions for the archive file
      */
     archive_extension_types: string[];
     /**
